@@ -1,6 +1,7 @@
 FROM cloyne/nginx
 
-MAINTAINER Mitar <mitar.docker@tnode.com>
+MAINTAINER Sébastien Santoro aka Dereckson <dereckson+nasqueron-docker@espace-win.org>
+#Based on the work of Mitar <mitar.docker@tnode.com>
 
 ENV FCGI_HOST 127.0.0.1
 ENV FCGI_PORT 9000
